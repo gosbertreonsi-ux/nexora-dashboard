@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, Radio, Activity, Ban, Server, DollarSign } from 'lucide-react';
 
+
 interface MetricLog {
   id: string;
   deviceFingerprint: string;
