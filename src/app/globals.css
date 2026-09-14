@@ -1,3 +1,8 @@
-@tailwind base; 
-@tailwind components; 
-@tailwind utilities; 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #020617; /* Explicitly forces fallback dark slate background color directly */
+  color: #f8fafc;
+}
