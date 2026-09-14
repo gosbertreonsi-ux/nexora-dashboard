@@ -24,7 +24,8 @@ export default function Dashboard() {
 
 
   useEffect(() => {
-    const socket = new WebSocket('ws://localhost:8080/gravity-stream');
+    const socket = new WebSocket('ws://localhost:8080/gravity-stream?dashboard=true');
+
     setSocketInstance(socket);
 
     socket.onopen = () => {
